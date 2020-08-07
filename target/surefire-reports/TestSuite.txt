@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 89.091 s <<< FAILURE! - in TestSuite
+com.goibibo.auto.GoIbibo.SS1_bookFlight.bookFlight  Time elapsed: 84.437 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/div[2]/div/div[1]/div[5]/div/div[2]/div/div/div/div[5]/div[3]/div[4]/div[1]/div[2]/div (tried for 30 second(s) with 500 milliseconds interval)
+	at com.goibibo.auto.GoIbibo.SS1_bookFlight.bookFlight(SS1_bookFlight.java:82)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: /html/body/div[2]/div/div/div/div[2]/div/div[1]/div[5]/div/div[2]/div/div/div/div[5]/div[3]/div[4]/div[1]/div[2]/div
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'MUNNA', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8088, moz:profile: C:\Users\Munna\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b894d082-8042-47f4-8e78-012e3850a8fa
+*** Element info: {Using=xpath, value=/html/body/div[2]/div/div/div/div[2]/div/div[1]/div[5]/div/div[2]/div/div/div/div[5]/div[3]/div[4]/div[1]/div[2]/div}
+	at com.goibibo.auto.GoIbibo.SS1_bookFlight.bookFlight(SS1_bookFlight.java:82)
+
